@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { 
   CometChatMessageComposer, 
   CometChatMessageHeader, 
@@ -12,7 +11,6 @@ import { CometChatSelector } from "../CometChatSelector/CometChatSelector";
 import "./ChatDemo.css";
 
 export const ChatDemo = () => {
-  const navigate = useNavigate();
   const [selectedUser, setSelectedUser] = useState<CometChat.User | undefined>(undefined);
   const [selectedGroup, setSelectedGroup] = useState<CometChat.Group | undefined>(undefined);
   const [selectedCall, setSelectedCall] = useState<CometChat.Call | undefined>(undefined);
