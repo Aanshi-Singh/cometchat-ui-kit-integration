@@ -1,0 +1,52 @@
+.selector-wrapper .cometchat-conversations .cometchat-list__header-menu .cometchat-button__icon {
+    background: var(--cometchat-icon-color-primary);
+}
+
+.cometchat-conversations .cometchat-list__header-menu .cometchat-button__icon:hover {
+    background: var(--cometchat-icon-color-highlight);
+}
+
+.cometchat-list__header-search-bar {
+    border-right: none;
+}
+
+.cometchat .cometchat-menu-list__sub-menu-list-item {
+    text-align: left;
+}
+
+.cometchat .cometchat-conversations .cometchat-menu-list__sub-menu-list {
+    width: 212px;
+    top: 40px !important;
+    left: 172px !important;
+}
+
+#logged-in-user {
+    border-bottom: 2px solid var(--cometchat-border-color-default, #E8E8E8);
+}
+
+#logged-in-user .cometchat-menu-list__sub-menu-item-title,
+#logged-in-user .cometchat-menu-list__sub-menu-list-item {
+    cursor: default;
+}
+
+.cometchat-menu-list__sub-menu-list-item-icon-log-out {
+    background-color: var(--cometchat-error-color, #F44649);
+}
+
+.cometchat-menu-list__sub-menu-item-title-log-out {
+    color: var(--cometchat-error-color, #F44649)
+}
+
+.chat-menu .cometchat .cometchat-menu-list__sub-menu-item-title {
+    cursor: pointer;
+}
+
+.chat-menu .cometchat .cometchat-menu-list__sub-menu {
+    box-shadow: none;
+}
+
+.chat-menu .cometchat .cometchat-menu-list__sub-menu-icon {
+    background-color: var(--cometchat-icon-color-primary, #141414);
+    width: 24px;
+    height: 24px;
+}
