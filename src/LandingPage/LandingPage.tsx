@@ -235,7 +235,7 @@ For example:
     good: { 
       items: goodDX, 
       emoji: "✅", 
-      title: "What Works Well", 
+      title: "Strengths", 
       color: "#10b981" 
     },
     improvements: { 
